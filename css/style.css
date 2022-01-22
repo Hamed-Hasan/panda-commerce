@@ -1,0 +1,18 @@
+.input-email {
+    background: url(../images/search.png) no-repeat;
+    display: inline-block;
+    background-size: 31px;
+    background-position: top right;
+    opacity: .4;
+    border-radius: 17px !important;
+}
+
+.input-email input{
+    padding-left: 40px;
+    background-color: transparent !important;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
